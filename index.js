@@ -19,3 +19,6 @@ if ((x=1) || (y=3)){
 confirm("Are you happy??");
 
 console.log("Namaste");
+
+var num = prompt("Input number: ");
+console.log(num)
