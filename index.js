@@ -1,3 +1,4 @@
+/*
 var a = " ";
 console.log(a);
 
@@ -22,3 +23,28 @@ console.log("Namaste");
 
 const num = prompt("Input number: ");
 console.log(num);
+*/
+
+var x =1;
+
+if(x == 1){
+    console.log("x is 1. ");
+}else{
+    console.log("x is not 1");
+}
+
+//Ternary Operator
+let result = x === 1 ?"x is 1":"x is not 1";
+
+for (let i = 0; i< 5;i++){
+    console.log(i);
+}
+
+
+//Learning Function
+
+function add(a,b){
+    console.log("The addition of two numbers is ",a + b);
+}
+
+add(4,5);
