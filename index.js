@@ -50,6 +50,8 @@ function add(a,b){
 
 add(4,5);
 
+console.log(@@ss)
+
 */
 //ES6 Style (Arrow Function)
 const add =(a,b) =>{
