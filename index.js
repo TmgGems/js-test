@@ -1,5 +1,5 @@
 var a = " ";
-consolelog(a);
+console.log(a);
 
 let x = 1;
 let y = 2;
@@ -16,9 +16,9 @@ if ((x=1) || (y=3)){
     console.log("||Operator tested")
 }
 
-confirm("Are you happy??");
+//confirm("Are you happy??");
 
 console.log("Namaste");
 
-var num = prompt("Input number: ");
-console.log(num)
+const num = prompt("Input number: ");
+console.log(num);
