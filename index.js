@@ -43,8 +43,15 @@ for (let i = 0; i< 5;i++){
 
 //Learning Function
 
+/*
 function add(a,b){
     console.log("The addition of two numbers is ",a + b);
 }
 
 add(4,5);
+
+*/
+//ES6 Style (Arrow Function)
+const add =(a,b) =>{
+    console.log(a + b);
+}
