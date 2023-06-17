@@ -56,7 +56,7 @@ const add =(a,b) =>{
     console.log(a + b);
 }
 
-*/
+
 
 // Accepting Challenging questions
 
@@ -88,7 +88,20 @@ if (num1 == num2){
     console.log(num1 + num2);
 }
 
+*/
 
+// Q 2 Write a JavaScript program to check whether a given positive number is a multiple of 3 or 7.
 
+var num = window.prompt("Enter a given number ");
+if (num > 0){
+    if(num % 3 == 0){
+        console.log("The given number is multiple of 3");
+    }
+    elseif(num % 7 == 0)
+    {
+        console.log("The given number is multiple of 7");
+    }
+}
 
+// Q 3 
 
