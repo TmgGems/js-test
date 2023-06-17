@@ -169,3 +169,17 @@ var number = window.prompt("Enter the number: ");
 tempconvert(feedback, number);
 
 */
+
+//Q 6 Write a JavaScript program to count the number of vowels in a given string.
+
+var request =window.prompt("Enter the given string: ");
+var range = request.length;
+console.log(range);
+var sum = 0;
+var i ="";
+ for ( i = 0;i<range;i++){
+    if(request[i] == 'a'||request[i] =='e'||request[i] =='i'||request[i] =='o'||request[i] =='u'){
+        sum += 1;
+    }
+ }
+ console.log("The total vowels present in given is ",sum);
