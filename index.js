@@ -128,7 +128,7 @@ console.log(minutes);
 var seconds = status.getSeconds();
 console.log(seconds);
 
-*/
+
 
 // Q 4 Write a JavaScript program to calculate multiplication and division of two numbers.(use same function to achieve this)
 
@@ -146,3 +146,26 @@ function calcualtion(x,y){
  }
 
  calcualtion(2,3);
+
+ 
+
+ //Q 5 Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
+//[ Formula : c/5 = (f-32)/9 [ where c = temperature in Celsius and f = temperature in Fahrenheit ]
+
+
+
+function tempconvert(unit, value) {
+    if (unit == "Fahrenheit") {
+        var c = (value - 32) / 9 * 5;
+        console.log("The conversion of the given number from Fahrenheit to Celsius is", c);
+    } else {
+        var f = (value / 5) * 9 + 32;
+        console.log("The conversion of the given number from Celsius to Fahrenheit is", f);
+    }
+}
+
+var feedback = window.prompt("Choose either Fahrenheit or Celsius");
+var number = window.prompt("Enter the number: ");
+tempconvert(feedback, number);
+
+*/
