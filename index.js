@@ -102,7 +102,7 @@ if (num > 0){
     }
 }
 
-*/
+
 
 // Q 3 Write a JavaScript program to get the current date.
 
@@ -127,3 +127,22 @@ console.log(minutes);
 
 var seconds = status.getSeconds();
 console.log(seconds);
+
+*/
+
+// Q 4 Write a JavaScript program to calculate multiplication and division of two numbers.(use same function to achieve this)
+
+function calcualtion(x,y){
+    var response = window.prompt("Choose either * or / .");
+    if (response == "*"){
+        console.log(x*y);
+    }else if(response=="/")
+    {
+        console.log(x/y);
+    }else
+    {
+        console.log("Invalid input!");
+    }
+ }
+
+ calcualtion(2,3);
