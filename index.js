@@ -43,7 +43,6 @@ for (let i = 0; i< 5;i++){
 
 //Learning Function
 
-/*
 function add(a,b){
     console.log("The addition of two numbers is ",a + b);
 }
@@ -58,6 +57,7 @@ const add =(a,b) =>{
 }
 
 */
+
 // Accepting Challenging questions
 
 //Q1. Write a JavaScript program that prints 'Hello World'.
@@ -68,3 +68,27 @@ console.log("Hello World ");
 
 const pi = 3.14;
 console.log(pi);
+
+
+
+//Q3. Write a JavaScript program to compute the sum of the two given integers. If the      two   values are the same, then return triple their sum.
+
+
+
+var num1 = window.prompt("Enter the first number:");
+var num2 = window.prompt("Enter the second number:");
+
+num1 = parseInt(num1);
+num2 = parseInt(num2);
+
+
+if (num1 == num2){
+    console.log(3*(num1+num2));
+}else{
+    console.log(num1 + num2);
+}
+
+
+
+
+
