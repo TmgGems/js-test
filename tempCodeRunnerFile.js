@@ -1,3 +1,1 @@
-
-
-//confirm("Are you happy??");
+if(num % 7 == 0)

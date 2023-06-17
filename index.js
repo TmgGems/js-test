@@ -88,7 +88,6 @@ if (num1 == num2){
     console.log(num1 + num2);
 }
 
-*/
 
 // Q 2 Write a JavaScript program to check whether a given positive number is a multiple of 3 or 7.
 
@@ -97,11 +96,34 @@ if (num > 0){
     if(num % 3 == 0){
         console.log("The given number is multiple of 3");
     }
-    elseif(num % 7 == 0)
+    else(num % 7 == 0)
     {
         console.log("The given number is multiple of 7");
     }
 }
 
-// Q 3 
+*/
 
+// Q 3 Write a JavaScript program to get the current date.
+
+
+var status = new Date();
+
+var year = status.getFullYear();
+console.log(year);
+
+var month = status.getMonth();
+console.log(month);
+
+var day = status.getDay();
+console.log(day);
+
+// Program to get Current Time
+var hours = status.getHours();
+console.log(hours);
+
+var minutes = status.getMinutes();
+console.log(minutes);
+
+var seconds = status.getSeconds();
+console.log(seconds);
