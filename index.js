@@ -23,7 +23,7 @@ console.log("Namaste");
 
 const num = prompt("Input number: ");
 console.log(num);
-*/
+
 
 var x =1;
 
@@ -51,9 +51,16 @@ function add(a,b){
 add(4,5);
 
 
-*/
+
 //ES6 Style (Arrow Function)
 const add =(a,b) =>{
     console.log(a + b);
 }
+
+*/
+// Accepting Challenging questions
+
+//Q1. Write a JavaScript program that prints 'Hello World'.
+
+console.log("Hello World ");
 
