@@ -168,7 +168,7 @@ var feedback = window.prompt("Choose either Fahrenheit or Celsius");
 var number = window.prompt("Enter the number: ");
 tempconvert(feedback, number);
 
-*/
+
 
 //Q 6 Write a JavaScript program to count the number of vowels in a given string.
 
@@ -183,3 +183,17 @@ var i ="";
     }
  }
  console.log("The total vowels present in given is ",sum);
+
+ */
+
+ // just random one
+
+ function multiply(a){
+    for(var i= 1;i<=10;i++){
+        console.log( a * i);
+    }
+ }
+
+ var feedback = window.prompt("Enter the number you want a multiply table. ");
+ conv = parseInt(feedback);
+ multiply(conv);
