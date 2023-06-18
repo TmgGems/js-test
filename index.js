@@ -200,7 +200,7 @@ var i ="";
 
  
 
- */
+
 
  var fruits = ['apple','banana','mango'];
  function fruitslIst( fruits,name){
@@ -211,6 +211,14 @@ var i ="";
 
  var fav = window.prompt("Enter the fruit you want to push in a array. ");
  console.log(fruitslIst(fruits,fav));
-
  
+
+ // Shift function -> to remove the first element from an array and returns that removed element.
+
+ var fruits =['apple','banana','mango'];
+ console.log(fruits.shift());
+ console.log(fruits);
+
+
+ */
  
