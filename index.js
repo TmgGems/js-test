@@ -184,7 +184,7 @@ var i ="";
  }
  console.log("The total vowels present in given is ",sum);
 
- */
+ 
 
  // just random one
 
@@ -197,3 +197,20 @@ var i ="";
  var feedback = window.prompt("Enter the number you want a multiply table. ");
  conv = parseInt(feedback);
  multiply(conv);
+
+ 
+
+ */
+
+ var fruits = ['apple','banana','mango'];
+ function fruitslIst( fruits,name){
+    fruits.push(name);
+    return fruits;
+ }
+ 
+
+ var fav = window.prompt("Enter the fruit you want to push in a array. ");
+ console.log(fruitslIst(fruits,fav));
+
+ 
+ 
