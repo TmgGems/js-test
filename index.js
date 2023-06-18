@@ -222,3 +222,17 @@ var i ="";
 
  */
  
+ // just random practice using conditional and array
+
+var fruitslist = ['apple','banana','mango','grapes'];
+ function check(list,order){
+    if (order in list){
+        console.log("Okey you will be Served :) ");
+    }else{
+        console.log("Sorry Not Available ! ")
+    }
+
+ }
+
+ var order = window.prompt("Enter your order . ");
+ check(fruitslist,order);
