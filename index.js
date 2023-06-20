@@ -239,12 +239,38 @@ var fruitslist = ['apple','banana','mango','grapes'];
 
  */
 
+
+
+/*
+function area(a,b){
+    return a * b;
+}
+
+const area = area(a,b){
+    return a * b;
+}
+
+
 const Person = {
     fname : "John",
     Name : () => {
-        return this.fname;
+        return Person.fname;
     }
 }
 
-const get = Person.fname;
-console.log(get)
+const a = Person.Name();
+console.log(a);
+
+
+
+const Fruits ={
+    fone : "Apple",
+    ftwo : " Mango",
+    get : () =>{
+        
+    }
+}
+ 
+const F = Fruits.fone;
+*/
+
