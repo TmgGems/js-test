@@ -239,4 +239,12 @@ var fruitslist = ['apple','banana','mango','grapes'];
 
  */
 
- 
+const Person = {
+    fname : "John",
+    Name : () => {
+        return this.fname;
+    }
+}
+
+const get = Person.fname;
+console.log(get)
