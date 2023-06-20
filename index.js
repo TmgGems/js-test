@@ -220,7 +220,7 @@ var i ="";
  console.log(fruits);
 
 
- */
+ 
  
  // just random practice using conditional and array
 
@@ -236,3 +236,7 @@ var fruitslist = ['apple','banana','mango','grapes'];
 
  var order = window.prompt("Enter your order . ");
  check(fruitslist,order);
+
+ */
+
+ 
