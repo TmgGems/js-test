@@ -274,3 +274,11 @@ const Fruits ={
 const F = Fruits.fone;
 */
 
+const Newo = [];
+const fruits = ['Appple','Banana','Mango'];
+
+console.log(fruits.length);
+console.log(fruits.pop())
+
+ Newo.push(fruits[0]);
+ console.log(Newo);
