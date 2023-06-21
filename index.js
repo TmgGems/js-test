@@ -138,7 +138,7 @@ function calcualtion(x,y){
         console.log(x*y);
     }else if(response=="/")
     {
-        console.log(x/y);
+        console.log(x/y); 
     }else
     {
         console.log("Invalid input!");
