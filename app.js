@@ -8,6 +8,7 @@ const uc = require("upper-case");
     res.end(message +  " Current time is : " + date.myDateTime());
  })
  .listen(8080);
+//  console.log("App Running")
 
  console.log('App Runing on port 8080');
 
