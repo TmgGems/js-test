@@ -54,6 +54,9 @@ add(4,5);
 //ES6 Style (Arrow Function)
 const add =(a,b) =>{
     console.log(a + b);
+}  
+
+
 }
 
 
