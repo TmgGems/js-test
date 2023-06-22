@@ -6,10 +6,10 @@ nodemailer initializer transporter
 transporter.sendMail()
 */
 
-const nodemailer =  require("nodemailer");
+const nodemailer =  require('nodemailer');
 
 const mailoptions = {
-    from: "gyalwanglama123@gmail.com" , // sender address
+    from: "<gyalwanglama123@gmail.com>", // sender address
     to: "ss9984261@gmail.com", // list of receivers
     subject: "Hello ✔", // Subject line
     text: "Hello world?" // plain text body
@@ -18,13 +18,13 @@ const mailoptions = {
 
 //gmail transporter ready
 const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.net",
+  host: "smtp.gmail.com",
   port: 465,
   secure: true,
   auth: {
     // TODO: replace `user` and `pass` values from <https://forwardemail.net>
     user: 'gyalwanglama123@gmail.com',
-    pass:"emaietvabpimhlgs",
+    pass:"",
   }
 });
 
