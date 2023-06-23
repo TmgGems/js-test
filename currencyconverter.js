@@ -6,6 +6,7 @@ let ratesCacheOptions = {
     isRatesCaching: true, 
     ratesCacheDuration: 3600 
 }
+/
 
 currencyConverter = currencyConverter.setupRatesCache(ratesCacheOptions)
 
